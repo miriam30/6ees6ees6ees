@@ -5,11 +5,11 @@ class ForagerBee extends Bee {
     this.job = "find pollen"
     this.canFly = true;
     this.treasureChest = [];
-  }
+  };
   forage(treasure){
     this.treasure = treasure;
-    this.treasureChest.push(this.treasure)
+    this.treasureChest.push(this.treasure);
 
-  }
+  };
 
 };
