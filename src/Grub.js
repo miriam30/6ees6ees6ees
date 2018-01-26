@@ -5,9 +5,7 @@ class Grub {
     this.color = "pink";
     this.food = "jelly";
   };
-
-
-//let grub = new Grub();
+  
 eat(){
   return "Mmmmmmmmm " + this.food;
 };
